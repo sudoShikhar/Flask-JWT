@@ -2,10 +2,13 @@
 
 1. For the purpose of this assignment, users and tokens are stored in code directly in an array. Those could be stored in a DB instead.
 1. Instead of curl commands, a Postman JSON is provided in the repo itself.
-1. You need to install `flask` and `flask=jwt-extended`.<br>
-    `pip install Flask`<br>
-    `pip install Flask-JWT`
-1. Then run command 
+1. We'll create virtual enviroment<br>
+    `python -m venv venv`
+1. Activate venv<br>
+    `.\venv\Scripts\activate.bat`
+1. Install dependencies<br>
+    `pip install -r requirements.txt`
+1. Then run command <br>
     `flask --app JWT run`
 1. `GET` All Users `/allusers`
     1. Helper API. It retrieves all users signed up, and their tokens, both access and refresh.
