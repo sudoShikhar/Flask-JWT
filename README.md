@@ -5,7 +5,8 @@
 1. We'll create virtual enviroment<br>
     `python -m venv venv`
 1. Activate venv<br>
-    `.\venv\Scripts\activate.bat`
+    If cmd/terminal `.\venv\Scripts\activate.bat`<br>
+    If powershell `.\venv\Scripts\Activate.ps1`
 1. Install dependencies<br>
     `pip install -r requirements.txt`
 1. Then run command <br>
